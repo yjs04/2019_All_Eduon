@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>올에듀원</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="bc"></div>
+    <div id="wrap">
+        <!-- header -->
+        <header>
+            <!-- input - 480 only -->
+            <input type="checkbox" id="nav_top_open">
+            <!-- header top -->
+            <div id="header_top">
+                <div id="search">
+                    <input type="text" id="search_input" placeholder="듣고 싶은 강의를 검색해 보세요">
+                    <label for="search_input" id="search_label"><img src="image/search.png" alt="search_icon" id="search_icon"></label>
+                </div>
+                <div id="user_box">
+                    <button class="user_box_btn"><p>회원가입</p></button>
+                    <button class="user_box_btn"><p>로그인</p></button>
+                </div>
+            </div>
+            <!-- header bottom -->
+            <div id="header_bottom">
+                <div id="logo">
+                    <img src="image/Logo.png" alt="logo_img" id="logo_img">
+                </div>
+                <!-- nav - top -->
+                <div id="nav_top">
+                    <div class="nav_top_ul">전체강의보기</div>
+                    <div class="nav_top_ul">내강의실</div>
+                    <div class="nav_top_ul">장바구니</div>
+                    <div class="nav_top_ul">Mypage</div>
+                </div>
+                <!-- banner -->
+                <div id="banner">
+                    <div class="banner_slide" id="banner_slide1">
+                        <img src="image/banner_slide1.jpg" alt="banner_slide_img" class="banner_slide_img">
+                        <p class="banner_slide_word">자격증 NO.1<br>신뢰와 믿음으로 보답하겠습니다.</p>
+                    </div>
+                    <div class="banner_slide" id="banner_slide2">
+                        <img src="image/banner_slide2.jpg" alt="banner_slide_img" class="banner_slide_img">
+                        <p class="banner_slide_word">교육 전 분야에 결친 다양하고<br>우수한 콘텐츠!</p>
+                    </div>
+                    <div class="banner_slide" id="banner_slide3">
+                        <img src="image/banner_slide3.jpg" alt="banner_slide_img" class="banner_slide_img">
+                        <p class="banner_slide_word">최다과정! 최소비용!최대혜택!으로<br>자격증 취득을 약속합니다.</p>
+                    </div>
+                </div>
+                <!-- btn - 480 only -->
+                <label id="nav_top_open_btn" for="nav_top_open">
+                    <div class="nav_top_open_bar"></div>
+                    <div class="nav_top_open_bar"></div>
+                    <div class="nav_top_open_bar"></div>
+                </label>
+            </div>
+            <!-- nav - left -->
+            <div id="nav_left">
+                <div class="nav_left_menus">
+                    <div class="nav_left_ul">
+                        <img src="image/nav_left1.png" class="nav_left_ul_icon" alt="nav_left_ul-icon">
+                        올에듀온 소개
+                    </div>
+                    <div class="nav_left_ul">
+                        <img src="image/nav_left2.png" class="nav_left_ul_icon" alt="nav_left_ul-icon">
+                        패키지 강좌
+                    </div>
+                    <div class="nav_left_ul">
+                        <img src="image/nav_left3.png" class="nav_left_ul_icon" alt="nav_left_ul-icon">
+                        디자인 / 영상
+                        <div class="nav_left_ul_sub">
+                            <li class="nav_left_ul_sub_li">기초디자인</p>
+                            <li class="nav_left_ul_sub_li">그래픽디자인</p>
+                            <li class="nav_left_ul_sub_li">CG/영상 그래픽</p>
+                        </div>
+                    </div>
+                    <div class="nav_left_ul">
+                        <img src="image/nav_left4.png" class="nav_left_ul_icon" alt="nav_left_ul-icon">
+                        프로그래밍 / IT정보보완
+                    </div>
+                    <div class="nav_left_ul">
+                        <img src="image/nav_left5.png" class="nav_left_ul_icon" alt="nav_left_ul-icon">
+                        조리,제과 / 제빵,바리스타
+                    </div>
+                    <div class="nav_left_ul">
+                        <img src="image/nav_left6.png" class="nav_left_ul_icon" alt="nav_left_ul-icon">
+                        뷰티 / 미용
+                    </div>
+                    <div class="nav_left_ul">
+                        <img src="image/nav_left7.png" class="nav_left_ul_icon" alt="nav_left_ul-icon">
+                        고객센터
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- visual -->
+        <div id="visual">
+            <div class="visual_slider" id="visual_box1"><img src="image/visual_slide1.jpg" class="visual_slide_img" alt="visual_img"></div>
+            <div class="visual_slider" id="visual_box2"><img src="image/visual_slide2.jpg" class="visual_slide_img" alt="visual_img"></div>
+            <div class="visual_slider" id="visual_box3"><img src="image/visual_slide3.jpg" class="visual_slide_img" alt="visual_img"></div>
+            <div id="visual_slide_text_area">
+                <p>ONLINE PREMIUM LECTURE<br>EDUCATION ALLEDUON</p>
+                <p>세상에 수 많은 온라인 강의 “왜, 올에듀온 일까요? </p>
+                <p>올에듀온은 올에듀교육그룹의 자회사입니다.<br>오랜 시간 오프라인 학원 운영 노하우와 수준 높은 강의를 녹여 직접 제작한 온라인 강의 사이트가<br>바로 ‘올에듀온’입니다.</p>
+            </div>
+            <div id="visual_slide_now">
+                <!-- don't click -->
+                <button class="visual_slide_btn"></button>
+                <button class="visual_slide_btn"></button>
+                <button class="visual_slide_btn"></button>
+            </div>
+        </div>
+        <!-- content -->
+        <div id="content">
+            <!-- top class -->
+            <div id="top_class">
+                <h2 id="top_classTitle">올에듀온 인기강좌TOP5</h2>
+                <div id="top_classBox">
+                    <div class="top_class_contentBox">
+                        <div class="top_class_contentNum">1</div>
+                        <div class="top_class_contentTitle">
+                            <span class="Topcontent_text_title">멘토멘티HTML5+CSS3 웹프로그래밍</span>
+                            <span class="Topcontent_people">김정민강사 (총30강)</span>
+                        </div>
+                        <div class="top_class_contentInfo">
+                        </div>
+                        <img src="image/top_class1.JPG" alt="top_class_contentimg" class="top_class_contentimg">
+                    </div>
+                    <div class="top_class_contentBox">
+                        <div class="top_class_contentNum">2</div>
+                        <div class="top_class_contentTitle">
+                            <span class="Topcontent_text_title">이왕이면 제대로 Premiere Pro CC 2019</span>
+                            <span class="Topcontent_people">김수연 강사 (총 25강)</span> 
+                        </div>
+                        <div class="top_class_contentInfo">
+                        </div>
+                        <img src="image/top_class2.JPG" alt="top_class_contentimg" class="top_class_contentimg">
+                    </div>
+                    <div class="top_class_contentBox">
+                        <div class="top_class_contentNum">3</div>
+                        <div class="top_class_contentTitle">
+                            <span class="Topcontent_text_title">멘토시리즈 After Effect CC 2020</span>
+                            <span class="Topcontent_people">박성우 강사 (총 25강)</span>
+                            <span class="Topcontent_madeyear">수강기간 100일 2020년도 제작 </span>
+                        </div>
+                        <div class="top_class_contentInfo">
+                        </div>
+                        <img src="image/top_class3.JPG" alt="top_class_contentimg" class="top_class_contentimg">
+                    </div>
+                    <div class="top_class_contentBox">
+                        <div class="top_class_contentNum">4</div>
+                        <div class="top_class_contentTitle">
+                            <span class="Topcontent_text_title">전산세무 1급</span>
+                            <span class="Topcontent_people">상봉규 강사 (총 88강)</span> 
+                            <span class="Topcontent_madeyear">수강기간 120일 2019년도 제작 </span>
+                        </div>
+                        <div class="top_class_contentInfo">
+                        </div>
+                        <img src="image/top_class4.JPG" alt="top_class_contentimg" class="top_class_contentimg">
+                    </div>
+                    <div class="top_class_contentBox">
+                        <div class="top_class_contentNum">5</div>
+                        <div class="top_class_contentTitle">
+                            <span class="Topcontent_text_title">인포그래픽, Visual thinking</span>
+                            <span class="Topcontent_people">이수진 강사 (총 20강)</span>
+                            <span class="Topcontent_madeyear">수강기간 40일 2019년도 제작</span> 
+                        </div>
+                        <div class="top_class_contentInfo">
+                        </div>
+                        <img src="image/top_class5.JPG" alt="top_class_contentimg" class="top_class_contentimg">
+                    </div>
+
+                    <div class="top_classContent_more">
+                        <p class="Topcontent_moreTitle">더 많은 강좌</p>
+                        <button class="top_classMorebtn"><div class="top_classMorebtnarrow"></div></button>
+                    </div>
+                </div>
+            </div>
+            <!-- content - right -->
+            <div id="content_right">
+                <!-- right - 1 -->
+                <div id="all_diff">
+                    <h2 id="all_diffTitle">올에듀온의 차별점</h2>
+                    <ul id="all_diffContent">
+                        <li class="all_diffText">현장 실무 강사님들 직강!</li>
+                        <li class="all_diffText"> 다른곳에 없는 취미,생활</li>
+                        <li class="all_diffText">자격증 강의!, 전문 강사님들의<br>명확한 피드백!</li>
+                    </ul>
+                </div>
+                <!-- right - 2 -->
+                <div id="all_recommend">
+                    <h2 id="all_recommendTitle">이런분들에게 추천합니다.</h2>
+                    <div id="all_recommendContent">
+                        <div class="all_recommendBox">
+                            <img src="image/all_recommend_img1.png" alt="all_recommend_img" class="all_recommendBox_img">
+                            <p class="all_recommend_text">학원에 갈 여건은 되지 않지만,<br>자격증이 꼭 필요한 분</p>
+                        </div>
+                        <div class="all_recommendBox">
+                            <img src="image/all_recommend_img2.png" alt="all_recommend_img" class="all_recommendBox_img">
+                            <p class="all_recommend_text">여가를 좀 더 생산적이고<br>의미 있게 보내고 싶으신 분</p>
+                        </div>
+                        <div class="all_recommendBox">
+                            <img src="image/all_recommend_img3.png" alt="all_recommend_img" class="all_recommendBox_img">
+                            <p class="all_recommend_text">미래를 대비해 무언가를 배우는 게<br>취미이신 분</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- processing -->
+            <div id="all_processing">
+                <div id="all_processingBox">
+                    <h2 id="all_processingTitle">올에듀온의 영상 제작 과정</h2>
+                    <p id="all_processingInfo">
+                        <span>imaging process 영상 제작 과정</span><br>
+                        모든 강의는 올에듀교육그룹의 전문 강사들이 직접 촬영하여 자체 제작합니다.
+                    </p>
+                    <div id="all_processingContent">
+                        <div class="all_processingCBox">
+                            <img src="image/content1-1.JPG" alt="all_processingCBox_img" class="all_processingCBox_img">
+                        </div>
+                        <div class="all_processingCarrow"></div>
+                        <div class="all_processingCBox">
+                            <img src="image/content1-2.JPG" alt="all_processingCBox_img" class="all_processingCBox_img">
+                        </div>
+                        <div class="all_processingCarrow"></div>
+                        <div class="all_processingCBox">
+                            <img src="image/content1-3.JPG" alt="all_processingCBox_img" class="all_processingCBox_img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- inquiry -->
+            <div id="inquiry" class="notice_box">
+                <div id="inquiry_title" class="notice_box_title">교육할인 및 상담문의</div>
+                <div id="inquiry_content" class="notice_box_content">
+                    <p>1588-6222 /alledu222@alledugroup.com/ </p>
+                    <p>1:1맞춤형 수강할인 및 컨설팅 안내 /</p>
+                    <p>월~금 : 09:30~18:00 (토/일/공휴일 휴무)</p>
+                </div>
+            </div>
+
+            <!-- partnership -->
+            <div id="partnership" class="notice_box">
+                <div id="partnership_title" class="notice_box_title">단체 및 제휴문의</div>
+                <div id="partnership_info">(02-522-0402 /alledu222@alledugroup.com)</div>
+                <div id="partnership_content" class="notice_box_content">
+                    <p>기업특성 맞춤형 솔루션 제공</p>
+                    <p>강의 컨텐츠 제휴서비스 문의</p>
+                    <p>월~금 : 09:30~18:00 (토/일/공휴일 휴무)</p>
+                </div>
+            </div>
+
+            <!-- notice -->
+            <div id="notice" class="notice_box">
+                <div id="notice_title" class="notice_box_title">공지사항</div>
+                <div id="notice_content" class="notice_box_content">
+                    <p>[공지]올에듀 1월 5주차 정기 업데이트 안내</p>
+                    <p>[공지]올에듀 2월 4주차 정기 업데이트 안내</p>
+                </div>
+            </div>
+
+            <!-- review -->
+            <div id="review">
+                <div id="review_title">올에듀 후기</div>
+                <div id="review_content">
+                    <div class="review_contentBox">
+                        <p class="review_content_title">포토샵 기초</p>
+                        <p class="review_content_score">
+                            <img src="image/star_yellow.png" alt="star" class="review_content_img">
+                            <img src="image/star_yellow.png" alt="star" class="review_content_img">
+                            <img src="image/star_yellow.png" alt="star" class="review_content_img">
+                            <img src="image/star_yellow.png" alt="star" class="review_content_img">
+                            <img src="image/star_yellow.png" alt="star" class="review_content_img">
+                        </p>
+                        <p class="review_content_info">포토샵 초보탈출! 포토샵 에 대해 아무것도 몰랐는데<br>정말 많이 배웠습니다!! </p>
+                    </div>
+                    <div class="review_contentBox">
+                        <p class="review_content_title">포토샵 기초</p>
+                        <p class="review_content_score">
+                            <img src="image/star_yellow.png" alt="star" class="review_content_img">
+                            <img src="image/star_yellow.png" alt="star" class="review_content_img">
+                            <img src="image/star_yellow.png" alt="star" class="review_content_img">
+                            <img src="image/star_yellow.png" alt="star" class="review_content_img">
+                            <img src="image/star_yellow.png" alt="star" class="review_content_img">
+                        </p>
+                        <p class="review_content_info">포토샵 초보탈출! 기초부터 상세한 강의 감사합니다.</p>
+                    </div>
+                    <div class="review_contentBox">
+                        <p class="review_content_title">포토샵CC</p>
+                        <p class="review_content_score">
+                            <img src="image/star_yellow.png" alt="star" class="review_content_img">
+                            <img src="image/star_yellow.png" alt="star" class="review_content_img">
+                            <img src="image/star_yellow.png" alt="star" class="review_content_img">
+                            <img src="image/star_yellow.png" alt="star" class="review_content_img">
+                            <img src="image/star_yellow.png" alt="star" class="review_content_img">
+                        </p>
+                        <p class="review_content_info">ACA국제자격증 포토샵CC 버전 시험 보기전에<br>꼭 들어봐야할 강의였습니다! </p>
+                    </div>
+                    <div class="review_contentBox">
+                        <p class="review_content_title">MAYA Animate</p>
+                        <p class="review_content_score">
+                            <img src="image/star_dark.png" alt="star" class="review_content_img">
+                            <img src="image/star_yellow.png" alt="star" class="review_content_img">
+                            <img src="image/star_yellow.png" alt="star" class="review_content_img">
+                            <img src="image/star_yellow.png" alt="star" class="review_content_img">
+                            <img src="image/star_yellow.png" alt="star" class="review_content_img">
+                        </p>
+                        <p class="review_content_info">MAYA Animate 공부하기 쉽게 알려주는 마야 애니메이션 </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- footer -->
+        <footer>
+            <div id="footer_top">
+                <div id="footer_top_content">
+                    <p class="footer_top_text">이용약관</p>
+                    <p class="footer_top_text">개인정보처리방침</p>
+                    <p class="footer_top_text">고객상담센터</p>
+                </div>
+            </div>
+            <div id="footer_center">
+                <div id="footer_center_text_area">
+                    <div class="footer_center_area">
+                        <p class="footer_center_text">Email: alledu222@alledugroup.com</p>
+                        <p class="footer_center_text">Fax: 02-234-0235</p>
+                        <p class="footer_center_text">사업자번호: 315-12-33245</p>
+                    </div>
+                    <div class="footer_center_area">
+                        <p class="footer_center_text">대표이사: 올에듀 </p>
+                        <p class="footer_center_text">개인정보책임자 : 김이박</p>
+                        <p class="footer_center_text">교육담당 : 박이김</p>
+                    </div>
+                </div>
+                <div id="footer_center_text_right_area">
+                    <p class="footer_center_text-bottom">서울특별시 강남구 강남대로 345-4 </p>
+                    <p class="footer_center_text-bottom">온라인교육시설 신고: 제-321호 올에듀아카데미 사이버평교육원</p>
+                    <p class="footer_center_text-bottom">통신판매업 신고: 제 2016-서울-01371 Tel: 1515-2222</p>
+                </div>
+            </div>
+            <div id="footer_copyright">copyrightⓒALLEDU. All Right reserved.</div>
+        </footer>
+    </div>
+</body>
+</html>
